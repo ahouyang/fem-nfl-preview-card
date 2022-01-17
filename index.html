@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      background: hsl(217, 54%, 11%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    main {
+      background: hsl(216, 50%, 16%);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    main img {
+      width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+    }
+
+    #equilibrium:hover {
+      background: hsl(178, 100%, 50%);
+    }
+
+    main h2 {
+      color: #fff;
+      font-weight: 600;
+    }
+
+
+    p {
+      font-size: 18px;
+    }
+
+    .secondary {
+      color: hsl(215, 51%, 70%);
+    }
+
+    .primary {
+      color: hsl(178, 100%, 50%);
+    }
+
+    .label {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: hsl(215, 40%, 76%) 1px solid;
+    }
+
+    #ether {
+      display: inline;
+      width: 10px;
+    }
+
+    #clock {
+      display: inline;
+      width: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="equilibrium">
+      <img src="./images/image-equilibrium.jpg" alt="">
+    </div>
+    <h2>Equilibrium #3429</h2>
+  
+    <p class="secondary">Our Equilibrium collection promotes balance and calm.</p> 
+    <div class="label">
+      <p class="primary"><img id="ether" src="./images/icon-ethereum.svg" alt=""> 0.041 ETH</p>
+      <p class="secondary"><img id="clock" src="./images/icon-clock.svg" alt=""> 3 days left</p>
+    </div>
+    
+    
+    <footer class="secondary">Creation of <strong>Jules Wyvern</strong></footer>
+  </main>
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
